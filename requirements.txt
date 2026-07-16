@@ -1,0 +1,5 @@
+hyperliquid-python-sdk
+numpy
+pandas
+pandas-stubs
+ta
