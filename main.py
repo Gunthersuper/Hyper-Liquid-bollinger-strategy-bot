@@ -6,7 +6,7 @@ from utils import setup, klines, get_pnl, market_order, market_close, get_positi
 import ta
 
 address, info, exchange = setup(base_url=constants.MAINNET_API_URL, skip_ws=True)
-# print(exchange.set_referrer("GUNTHER"))
+print(exchange.set_referrer("GUNTHER"))
 
 coin = 'PUMP'
 timeframe = '1m'
